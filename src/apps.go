@@ -1,9 +1,9 @@
 package main
 
 import (
-	init "nakula/init"
+	initial "nakula/init"
 )
 
 func main() {
-	init.CheckCon("Tes")
+	initial.CheckCon("Tes")
 }

@@ -1,4 +1,4 @@
-package Inet
+package inet
 
 import (
 	"encoding/json"

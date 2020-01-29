@@ -13,7 +13,7 @@ import (
 func CheckCon(URI string) {
 	isConnect := true
 	for isConnect {
-		err := inCon.CheckCon()
+		err := inCon.Check()
 		if err != nil {
 			isConnect = true
 			time.Sleep(5 * time.Second)
