@@ -9,7 +9,7 @@ import (
 
 func Check() error {
 	// Set to google DNS
-	hostName := "8.8.8.8"
+	hostName := "google.com"
 	// Set Port
 	portNum := "80"
 	// Delayed time
